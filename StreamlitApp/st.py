@@ -84,8 +84,8 @@ if predict_button:
     else:
         try:
             # Load models and scalers for both services
-            rf_model_capital = joblib.load('./randomforest_Capitalbike.joblib')
-            scaler_capital = joblib.load('./scaler_Capital.joblib')
+            rf_model_capital = joblib.load('StreamlitApp/randomforest_Capitalbike.joblib')
+            scaler_capital = joblib.load('StreamlitApp/scaler_Capital.joblib')
 
             rf_model_citibike = joblib.load('./randomforest_citibike.joblib')
             scaler_citibike = joblib.load('./scaler_citibike.joblib')
