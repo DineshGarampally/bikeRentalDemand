@@ -5,8 +5,8 @@ from datetime import datetime
 from sklearn.preprocessing import StandardScaler
 
 # Load the trained Random Forest model and scaler
-rf_model = joblib.load('/Users/dinesh/Downloads/Streamlit/randomforest.joblib')
-scaler = joblib.load('/Users/dinesh/Downloads/Streamlit/scaler.joblib')
+rf_model = joblib.load('randomforest.joblib')
+scaler = joblib.load('scaler.joblib')
 
 # Custom CSS for styling
 st.markdown(
