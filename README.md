@@ -21,8 +21,11 @@ The data is sourced from:
 - Visual Crossing Weather API for weather data.
 
 Links for Data Sources:
+
 Capital Bikeshare: https://capitalbikeshare.com/
+
 Citi Bike: https://citibikenyc.com/
+
 Weather: Visual Crossing https://www.visualcrossing.com/
 
 ### Key Features
