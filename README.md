@@ -11,6 +11,10 @@ The existing research explored various models to improve accuracy by leveraging 
 
 This project builds a predictive model using weather data to forecast hourly bike rental demand.
 
+**Scope of the Project**
+
+This project aims to predict hourly bike rental demand for two major bike-sharing systems, Capital Bikeshare in Washington D.C. and Citi Bike in New York City, by analyzing the influence of weather conditions. It explores the relationships between weather variables such as temperature, precipitation, and humidity, and their impact on bike rental demand. By utilizing advanced sequential models like Long Short-Term Memory (LSTM) and Recurrent Neural Networks (RNN), the project seeks to capture temporal and environmental patterns in bike usage. The scope extends to comparing demand trends between the two cities to identify geographical and climatic differences. The findings are expected to assist bike-sharing companies in optimizing resource allocation, improving operational efficiency, and enhancing user satisfaction.
+
 ### Dataset
 The dataset comprises:
 1. **Bike Sharing Data**: Contains Capital Bikeshare and Citi Bike data which contains information about ride ids, locations,  ride start times, end times, and stations.
