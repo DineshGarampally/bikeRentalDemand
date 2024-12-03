@@ -61,7 +61,13 @@ Sequential models: Simple RNN, LSTM and GRU
 ---
 
 ## Deployment
-The project is deployed using **Streamlit Cloud**. The application allows users to input weather data and predicts the expected bike rental demand.
+
+## About The App
+The project is deployed using **Streamlit Cloud**. This app uses weather data to forecast hourly bike usage for two major bike-sharing services: Capital Bikeshare and Citi Bike. The application allows users to input weather data and predicts the expected bike rental demand.
+
+The application explores how weather conditions—such as temperature, humidity, windspeed, and precipitation—shape bike rental demand. This app delivers actionable insights to optimize resource allocation and enhance service availability.
+
+The app uses Randfom forest model to predict the demand. 
 
 ### How to Use the App
 1. Input the required weather parameters and hour of the day.
@@ -90,6 +96,11 @@ The project is deployed using **Streamlit Cloud**. The application allows users 
    ```bash
    streamlit run streamlitApp/st.py
    ```
+
+## Limitations of the App
+
+The app is not upto date with the real time data from the Capital Bikeshare and Citi Bike Sources. The real time demand may slightly vary from the predicted demand.
+
 
 ---
 
