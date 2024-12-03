@@ -7,7 +7,9 @@ This project aims to predict and forecast hourly bike rental demand using weathe
 ## Project Overview
 
 ### Problem Statement
-Bike-sharing companies need to anticipate rental demand to ensure optimal availability of bikes. This project builds a predictive model using weather data to forecast hourly bike rental demand.
+The existing research explored various models to improve accuracy by leveraging temporal features like day of the week and month to capture demand patterns but did not focus on the impact of weather conditions such as temperature, humidity, and precipitation, which our project incorporates to enhance demand prediction accuracy.
+
+This project builds a predictive model using weather data to forecast hourly bike rental demand.
 
 ### Dataset
 The dataset comprises:
