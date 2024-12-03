@@ -61,7 +61,7 @@ The project is deployed using **Streamlit Cloud**. The application allows users 
 ### Prerequisites
 - Python 3.8+
 - Streamlit
-- Required libraries for Streamlit App (listed in `requirements.txt`)
+- Required libraries for Streamlit App (listed in `requirements.txt`
 
 ### Steps
 1. Clone this repository:
@@ -80,10 +80,10 @@ The project is deployed using **Streamlit Cloud**. The application allows users 
 ---
 
 ## Future Work
-- Incorporating additional features such as public events or holidays.
-- Experimenting with ensemble models for improved performance.
-- Extending predictions to multiple cities.
-
+-  In the future, this project can be expanded to predict bike rental demand by incorporating data from other transportation options like buses, trains, and ride-sharing services.
+-  Including factors like traffic conditions and major events can further improve prediction accuracy.
+-  Additionally, integrating live data about bike availability at each station can significantly enhance the model's performance.
+-  These advancements can help bike-sharing companies and city planners build better-connected and more efficient transportation systems, making urban travel smoother and more convenient for users.
 ---
 
 ## Acknowledgments
@@ -94,7 +94,7 @@ The project is deployed using **Streamlit Cloud**. The application allows users 
 
 ## Contact
 For questions or suggestions, please contact:
-- **Venkat Akhil Mothe**: 
+- **Venkat Akhil Mothe**: mothevenkatakhil99@gmail.com
 - **Dinesh Garampally**: dineshgarampally01@gmail.com
 - **Praveen Kumar Keshaboina**: praveenyadavkeshaboina15@gmail.com
 
