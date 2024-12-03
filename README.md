@@ -32,15 +32,12 @@ The data is sourced from:
 
 ## Machine Learning Models
 
-### Models Used
-1. **Linear Regression **
-2. **SVR**
-3. **Random Forest Regressor**
-4. **XGBoost**
-4. **Simple RNN**
-5. **LSTM**
-6. **GRU**
-7. 
+Traditional Models: Linear regression, KNN, SVR and Decision Trees
+
+Ensemble Models: Random Forest bagging, AdaBoost, XGBoost, GradientBoost and Stacking
+
+Sequential models: Simple RNN, LSTM and GRU
+
 ### Evaluation Metrics
 - **Mean Absolute Error (MAE)**
 - **Mean Squared Error (MSE)**
@@ -69,7 +66,7 @@ The project is deployed using **Streamlit Cloud**. The application allows users 
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/bikeRentalDemand.git
+   git clone https://github.com/bikeRentalDemand/StramlitApp.git
    ```
 2. Install the dependencies:
    ```bash
@@ -77,14 +74,8 @@ The project is deployed using **Streamlit Cloud**. The application allows users 
    ```
 3. Run the Streamlit app:
    ```bash
-   streamlit run app/streamlit_app.py
+   streamlit run streamlitApp/st.py
    ```
-
----
-
-## Results
-- The Random Forest model achieved an **R² score of X.XX** on the test set.
-- The LSTM model effectively captured temporal patterns and provided accurate predictions for hourly demand.
 
 ---
 
@@ -101,12 +92,9 @@ The project is deployed using **Streamlit Cloud**. The application allows users 
 
 ---
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
----
-
 ## Contact
 For questions or suggestions, please contact:
-- **Dinesh**: [Your Email or GitHub Profile]
+- **Venkat Akhil Mothe**: 
+- **Dinesh Garampally**: dineshgarampally01@gmail.com
+- **Praveen Kumar Keshaboina**: praveenyadavkeshaboina15@gmail.com
 
