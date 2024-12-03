@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 
 # Load the trained Random Forest model and scaler
 rf_model = joblib.load('StreamlitApp/randomforest.joblib')
-scaler = joblib.load('./scaler.joblib')
+scaler = joblib.load('StreamlitApp/scaler.joblib')
 
 # Custom CSS for styling
 st.markdown(
