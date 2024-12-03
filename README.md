@@ -56,7 +56,7 @@ The project is deployed using **Streamlit Cloud**. The application allows users 
 
 ---
 
-## Installation
+## Installation of the App
 
 ### Prerequisites
 - Python 3.8+
