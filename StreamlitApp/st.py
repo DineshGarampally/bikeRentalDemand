@@ -87,8 +87,8 @@ if predict_button:
             rf_model_capital = joblib.load('StreamlitApp/randomforest_Capitalbike.joblib')
             scaler_capital = joblib.load('StreamlitApp/scaler_Capital.joblib')
 
-            rf_model_citibike = joblib.load('./randomforest_citibike.joblib')
-            scaler_citibike = joblib.load('./scaler_citibike.joblib')
+            rf_model_citibike = joblib.load('StreamlitApp/randomforest_citibike.joblib')
+            scaler_citibike = joblib.load('StreamlitApp/scaler_citibike.joblib')
 
             # Prepare the input data
             input_data = pd.DataFrame(
