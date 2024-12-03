@@ -17,7 +17,7 @@ st.markdown(
     }
     .main-header {
         font-size: 32px;
-        color: #333333;
+        color: ##f6f5f7;
         text-align: center;
         margin-bottom: 20px;
     }
