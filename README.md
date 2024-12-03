@@ -61,7 +61,7 @@ The project is deployed using **Streamlit Cloud**. The application allows users 
 ### Prerequisites
 - Python 3.8+
 - Streamlit
-- Required libraries for Streamlit App (listed in `requirements.txt`
+- Required libraries for Streamlit App (listed in `requirements.txt`)
 
 ### Steps
 1. Clone this repository:
