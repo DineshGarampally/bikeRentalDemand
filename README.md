@@ -96,6 +96,11 @@ The app uses Randfom forest model to predict the demand.
    ```bash
    streamlit run streamlitApp/st.py
    ```
+## Screenshots
+
+<img width="482" alt="image" src="https://github.com/user-attachments/assets/2f24b01e-1252-406f-bb0c-0a8b9be9ac1d">
+<br>
+<img width="257" alt="image" src="https://github.com/user-attachments/assets/2113edd7-a633-4c0d-b08b-157097fc028c">
 
 ## Limitations of the App
 
