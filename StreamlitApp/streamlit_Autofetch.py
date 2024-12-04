@@ -149,12 +149,12 @@ if predict_button:
     try:
         if selected_city == "Washington, DC, United States":
             # Load Washington DC model and scaler
-            rf_model = joblib.load('Streamlit/randomforest_Capitalbike.joblib')
-            scaler = joblib.load('Streamlit/scaler_Capital.joblib')
+            rf_model = joblib.load('StreamlitApp/randomforest_Capitalbike.joblib')
+            scaler = joblib.load('StreamlitApp/scaler_Capital.joblib')
         else:
             # Load New York City model and scaler
-            rf_model = joblib.load('Streamlit/randomforest_citibike.joblib')
-            scaler = joblib.load('Streamlit/scaler_Citibike.joblib')
+            rf_model = joblib.load('StreamlitApp/randomforest_citibike.joblib')
+            scaler = joblib.load('StreamlitApp/scaler_Citibike.joblib')
 
         # Prepare the input data
         input_data = pd.DataFrame(
