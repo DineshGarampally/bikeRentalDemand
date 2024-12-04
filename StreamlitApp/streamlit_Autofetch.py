@@ -154,7 +154,7 @@ if predict_button:
         else:
             # Load New York City model and scaler
             rf_model = joblib.load('StreamlitApp/randomforest_citibike.joblib')
-            scaler = joblib.load('StreamlitApp/scaler_Citibike.joblib')
+            scaler = joblib.load('StreamlitApp/scaler_citibike.joblib')
 
         # Prepare the input data
         input_data = pd.DataFrame(
