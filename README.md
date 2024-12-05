@@ -148,17 +148,15 @@ Predict Demand: Hit "Predict" to get instant insights into hourly bike rental de
 -  Including factors like traffic conditions and major events can further improve prediction accuracy.
 -  Additionally, integrating live data about bike availability at each station can significantly enhance the model's performance and also users experience.
 -  These advancements can help bike-sharing companies and city planners build better-connected and more efficient transportation systems, making urban travel smoother and more convenient for users.
----
-
+   
 ## Acknowledgments
 - **Citi Bike** and **Capital Bikeshare** for bike-sharing data.
 - **Visual Crossing Weather API** for weather data.
 
----
 
 ## Contact
 For questions or suggestions, please contact:
 - **Dinesh Garampally**: dineshgarampally01@gmail.com
 - **Praveen Kumar Keshaboina**: praveenyadavkeshaboina15@gmail.com
-- - **Venkat Akhil Mothe**: mothevenkatakhil99@gmail.com
+- **Venkat Akhil Mothe**: mothevenkatakhil99@gmail.com
 
