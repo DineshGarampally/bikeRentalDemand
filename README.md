@@ -46,11 +46,11 @@ Weather: Visual Crossing https://www.visualcrossing.com/
 
 ## Machine Learning Models
 
-Traditional Models: Linear regression, KNN, SVR and Decision Trees
+**Traditional Models:** Linear regression, KNN, SVR and Decision Trees
 
-Ensemble Models: Random Forest bagging, AdaBoost, XGBoost, GradientBoost and Stacking
+**Ensemble Models:** Random Forest bagging, AdaBoost, XGBoost, GradientBoost and Stacking
 
-Sequential models: Simple RNN, LSTM and GRU
+**Sequential models:** Simple RNN, LSTM and GRU
 
 ### Evaluation Metrics
 - **Mean Absolute Error (MAE)**
@@ -60,6 +60,39 @@ Sequential models: Simple RNN, LSTM and GRU
 
 ---
 
+## How to Run the Python File (BikeRentalDemand.ipynb)
+
+Follow the steps below to set up and run the notebook:
+
+**1. Download Necessary Datasets**
+
+**Capital Bikeshare Data:**
+Download data for the months you are interested in.
+For this project, we used data from July 2023 to August 2024.
+
+**Citi Bike Data:**
+Download data for the months you are interested in.
+For this project, we used data from April 2023 to April 2024.
+
+**Weather Data:**
+Download the weather data from the provided datasets folder in this repository.
+
+**2. Update File Paths in the Notebook**
+
+Update the file paths in the BikeRentalDemand.ipynb notebook to match the location of your downloaded files.
+If you are running the notebook locally, you can remove the Google Drive authentication and authorization steps at the start of the notebook.
+
+**3. Run the Notebook**
+
+Execute the cells in the notebook sequentially to:
+
+Load and preprocess the data.
+
+Train the machine learning models.
+
+Evaluate the model's performance.
+
+
 ## Deployment
 
 ## About The App
@@ -67,12 +100,19 @@ The project is deployed using **Streamlit Cloud**. This app uses weather data to
 
 The application explores how weather conditions—such as temperature, humidity, windspeed, and precipitation—shape bike rental demand. This app delivers actionable insights to optimize resource allocation and enhance service availability.
 
-The app uses Randfom forest model to predict the demand. 
+The app uses Pre Trained Randfom forest model to predict the demand. 
 
 ### How to Use the App
-1. Input the required weather parameters and hour of the day.
-2. Click the **Predict** button.
-3. View the predicted bike demand.
+
+1. Choose Your City: Select your preferred city from the dropdown.
+
+2. Set Date & Time: Pick a specific date and time for your prediction.
+
+3. Fetch Weather Data: Click the "Fetch Weather Data" button to automatically populate weather details in the input fields.
+
+4. Adjust Weather Values (Optional): You can manually modify the weather details if needed.
+
+Predict Demand: Hit "Predict" to get instant insights into hourly bike rental demand.
 
 ---
 
@@ -86,7 +126,7 @@ The app uses Randfom forest model to predict the demand.
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/bikeRentalDemand/StramlitApp.git
+   git clone https://github.com/bikeRentalDemand/StreamlitApp.git
    ```
 2. Install the dependencies:
    ```bash
@@ -94,7 +134,7 @@ The app uses Randfom forest model to predict the demand.
    ```
 3. Run the Streamlit app:
    ```bash
-   streamlit run streamlitApp/st.py
+   streamlit run streamlitApp/streamlitApp.py
    ```
 ## Screenshots
 
@@ -104,15 +144,15 @@ The app uses Randfom forest model to predict the demand.
 
 ## Limitations of the App
 
-The app is not upto date with the real time data from the Capital Bikeshare and Citi Bike Sources. The real time demand may slightly vary from the predicted demand.
-
+**Real-Time Data Unavailability:** The app does not integrate with real-time data from Capital Bikeshare and Citi Bike sources. As a result, actual demand may slightly differ from the predicted demand.
+**API Call Limitations:** The app relies on weather data fetched via an API, which has a daily limit on the number of calls. If the limit is exceeded or if there are issues fetching data, users are encouraged to enter the required values manually until the problem is resolved.
 
 ---
 
 ## Future Work
 -  In the future, this project can be expanded to predict bike rental demand by incorporating data from other transportation options like buses, trains, and ride-sharing services.
 -  Including factors like traffic conditions and major events can further improve prediction accuracy.
--  Additionally, integrating live data about bike availability at each station can significantly enhance the model's performance.
+-  Additionally, integrating live data about bike availability at each station can significantly enhance the model's performance and also users experience.
 -  These advancements can help bike-sharing companies and city planners build better-connected and more efficient transportation systems, making urban travel smoother and more convenient for users.
 ---
 
