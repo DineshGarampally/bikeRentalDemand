@@ -138,13 +138,16 @@ Predict Demand: Hit "Predict" to get instant insights into hourly bike rental de
    ```
 ## Screenshots
 
-<img width="482" alt="image" src="https://github.com/user-attachments/assets/2f24b01e-1252-406f-bb0c-0a8b9be9ac1d">
+<img width="1234" alt="image" src="https://github.com/user-attachments/assets/458056ac-5733-4dc6-b5ef-ebf1eadb2387">
 <br>
-<img width="257" alt="image" src="https://github.com/user-attachments/assets/2113edd7-a633-4c0d-b08b-157097fc028c">
+<img width="634" alt="image" src="https://github.com/user-attachments/assets/a8602a40-1992-4424-b61d-93a06ba1d9e6">
+<br>
+<img width="646" alt="image" src="https://github.com/user-attachments/assets/69449d26-d17c-417f-be3a-f382a2a9ecaa">
 
 ## Limitations of the App
 
 **Real-Time Data Unavailability:** The app does not integrate with real-time data from Capital Bikeshare and Citi Bike sources. As a result, actual demand may slightly differ from the predicted demand.
+
 **API Call Limitations:** The app relies on weather data fetched via an API, which has a daily limit on the number of calls. If the limit is exceeded or if there are issues fetching data, users are encouraged to enter the required values manually until the problem is resolved.
 
 ---
