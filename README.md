@@ -33,14 +33,14 @@ Citi Bike: https://citibikenyc.com/
 Weather: Visual Crossing https://www.visualcrossing.com/
 
 ### Key Features
-- Total Demand**
-- Hour of the Day**
-- Temperature (°C)**
-- Humidity (%)**
-- Solar Radiation (W/m²)**
-- Wind Speed (km/h)**
-- Precipitation (mm)**
-- Dew Point (°C)**
+- Total Demand
+- Hour of the Day
+- Temperature (°C)
+- Humidity (%)
+- Solar Radiation (W/m²)
+- Wind Speed (km/h)
+- Precipitation (mm)
+- Dew Point (°C)
 
 ---
 
