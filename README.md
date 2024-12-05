@@ -2,20 +2,17 @@
 
 This project aims to predict and forecast hourly bike rental demand using weather conditions. The goal is to provide accurate demand forecasts for bike-sharing companies to optimize their operations and inventory management. The project uses machine learning models and is deployed as a web application using Streamlit Cloud.
 
----
 
-## Project Overview
-
-### Problem Statement
+## Problem Statement
 The existing research explored various models to improve accuracy by leveraging temporal features like day of the week and month to capture demand patterns but did not focus on the impact of weather conditions such as temperature, humidity, and precipitation, which our project incorporates to enhance demand prediction accuracy.
 
 This project builds a predictive model using weather data to forecast hourly bike rental demand.
 
-**Scope of the Project**
+## Scope of the Project
 
 This project aims to predict hourly bike rental demand for two major bike-sharing systems, Capital Bikeshare in Washington D.C. and Citi Bike in New York City, by analyzing the influence of weather conditions. It explores the relationships between weather variables such as temperature, precipitation, and humidity, and their impact on bike rental demand. By utilizing advanced sequential models like Long Short-Term Memory (LSTM) and Recurrent Neural Networks (RNN), the project seeks to capture temporal and environmental patterns in bike usage. The scope extends to comparing demand trends between the two cities to identify geographical and climatic differences. The findings are expected to assist bike-sharing companies in optimizing resource allocation, improving operational efficiency, and enhancing user satisfaction.
 
-### Dataset
+## Dataset
 The dataset comprises:
 1. **Bike Sharing Data**: Contains Capital Bikeshare and Citi Bike data which contains information about ride ids, locations,  ride start times, end times, and stations.
 2. **Weather Data**: Temperature, humidity, solar radiation, wind speed, precipitation, and dew point.
@@ -32,7 +29,7 @@ Citi Bike: https://citibikenyc.com/
 
 Weather: Visual Crossing https://www.visualcrossing.com/
 
-### Key Features
+## Key Features
 - Total Demand
 - Hour of the Day
 - Temperature (°C)
@@ -41,8 +38,6 @@ Weather: Visual Crossing https://www.visualcrossing.com/
 - Wind Speed (km/h)
 - Precipitation (mm)
 - Dew Point (°C)
-
----
 
 ## Machine Learning Models
 
@@ -58,7 +53,6 @@ Weather: Visual Crossing https://www.visualcrossing.com/
 - **Root Mean Squared Error (RMSE)**
 - **R-squared (R²)**
 
----
 
 ## How to Run the Python File (BikeRentalDemand.ipynb)
 
@@ -92,17 +86,17 @@ Train the machine learning models.
 
 Evaluate the model's performance.
 
-
 ## Deployment
 
-## About The App
+**About The App**
+
 The project is deployed using **Streamlit Cloud**. This app uses weather data to forecast hourly bike usage for two major bike-sharing services: Capital Bikeshare and Citi Bike. The application allows users to input weather data and predicts the expected bike rental demand.
 
 The application explores how weather conditions—such as temperature, humidity, windspeed, and precipitation—shape bike rental demand. This app delivers actionable insights to optimize resource allocation and enhance service availability.
 
 The app uses Pre Trained Randfom forest model to predict the demand. 
 
-### How to Use the App
+**How to Use the App**
 
 1. Choose Your City: Select your preferred city from the dropdown.
 
@@ -114,16 +108,14 @@ The app uses Pre Trained Randfom forest model to predict the demand.
 
 Predict Demand: Hit "Predict" to get instant insights into hourly bike rental demand.
 
----
+**Installation of the App**
 
-## Installation of the App
-
-### Prerequisites
+**Prerequisites**
 - Python 3.8+
 - Streamlit
 - Required libraries for Streamlit App (listed in `requirements.txt`)
 
-### Steps
+**Steps**
 1. Clone this repository:
    ```bash
    git clone https://github.com/bikeRentalDemand/StreamlitApp.git
@@ -150,7 +142,6 @@ Predict Demand: Hit "Predict" to get instant insights into hourly bike rental de
 
 **API Call Limitations:** The app relies on weather data fetched via an API, which has a daily limit on the number of calls. If the limit is exceeded or if there are issues fetching data, users are encouraged to enter the required values manually until the problem is resolved.
 
----
 
 ## Future Work
 -  In the future, this project can be expanded to predict bike rental demand by incorporating data from other transportation options like buses, trains, and ride-sharing services.
@@ -167,7 +158,7 @@ Predict Demand: Hit "Predict" to get instant insights into hourly bike rental de
 
 ## Contact
 For questions or suggestions, please contact:
-- **Venkat Akhil Mothe**: mothevenkatakhil99@gmail.com
 - **Dinesh Garampally**: dineshgarampally01@gmail.com
 - **Praveen Kumar Keshaboina**: praveenyadavkeshaboina15@gmail.com
+- - **Venkat Akhil Mothe**: mothevenkatakhil99@gmail.com
 
