@@ -147,10 +147,10 @@ if fetch_weather_button:
                 unsafe_allow_html=True
             )
         else:
-            st.error(f"An HTTP error occurred: {e}")
+            st.error("An error occurred while fetching weather data. Please enter values manually.")
     except Exception as e:
         print(e)
-        st.error(f"An error occurred while fetching weather data: {e}")
+        st.error("An error occurred while fetching weather data. Please enter values manually.")
 
 # input fields with fetched or previously entered data
 st.markdown('<div class="sub-header">Enter Weather Data</div>', unsafe_allow_html=True)
