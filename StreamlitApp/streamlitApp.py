@@ -65,7 +65,7 @@ How It Works:
 
 5. Predict Demand: Hit "Predict" to get instant insights into hourly bike rental demand.
 
-Ready to predict? Enter the details and watch meaningful insights unfold! 🌟
+Ready to predict? Enter the details and see the demand! 🌟
     """
 )
 
