@@ -74,8 +74,8 @@ st.markdown('<div class="sub-header">Select Date, Time, and City</div>', unsafe_
 
 # City selection dropdown
 city_options = {
-    "New York, NY, United States": "New York, NY",
-    "Washington, DC, United States": "Washington DC"
+    "New York, NY, United States (Citi Bike)": "New York, NY",
+    "Washington, DC, United States (Capital Bikeshare)": "Washington DC"
 }
 selected_city = st.selectbox('🌆 Select City', list(city_options.keys()))
 
