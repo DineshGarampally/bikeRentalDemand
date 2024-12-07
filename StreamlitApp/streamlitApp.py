@@ -130,7 +130,7 @@ if fetch_weather_button:
         else:
             st.error("No weather data available for the selected hour.")
     except urllib.error.HTTPError as e:
-        if e.code == 401:  # Handle HTTP Error 401 specifically
+        if e.code == 401:  # Handling HTTP Error
             st.markdown(
                 """
                 <div style="
